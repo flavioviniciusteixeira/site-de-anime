@@ -1,0 +1,81 @@
+*{margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: 'Font';
+    src:url(Fonstars-4Bo0p.otf)
+    format("otf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+body{
+    background-color: rgba(0, 0, 0, 0.297);
+
+}
+
+header{
+    height: 100px;
+    background-color: rgb(4, 4, 5);
+    display: flex;
+    padding: 10px;  
+    margin-bottom: 0px;
+}
+
+h1{
+    
+    color: white;
+   display: block;
+   margin: auto;
+   font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+section.Infor{
+    height: 300px;
+   
+    
+}
+div{
+    background-color: white;
+    height: 300px;
+    padding-top: 100px;
+}
+section.imagem{
+    background-color: yellow;
+    background-size: cover;
+    background-position: top center;
+    height: 500px;  
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.416);
+    height: 280px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 100px;
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.685);  
+}
+
+h2{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.575); 
+    padding: 10px;
+} 
+
+h3{
+   font-family: "Lato", sans-serif;
+   font-weight: 900;
+   font-style: normal; ; 
+}
+section#imagem01{
+    background-image: url(imagens/diario-de-uma-apotecaria01.jpg);
+}
