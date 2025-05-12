@@ -15,6 +15,13 @@ body{
 
 }
 
+main{
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    box-shadow: 1px 1px 10px black;
+}
+
 header{
     height: 100px;
     background-color: rgb(4, 4, 5);
@@ -35,6 +42,8 @@ h1{
 
 section.Infor{
     height: 300px;
+    display: block;
+   
    
     
 }
@@ -78,4 +87,25 @@ h3{
 }
 section#imagem01{
     background-image: url(imagens/diario-de-uma-apotecaria01.jpg);
+}
+section#imagem02{
+    background-image: url(imagens/dr.stone01.jpg);
+}
+
+section#imagem03{
+    background-image: url(imagens/solo-leving02.jpg);
+}
+
+section > p.stone{
+    background-color: rgba(0, 0, 0, 0.584);
+   height:320px ;
+   margin-top: 70px;
+   border-radius: 10px;
+}
+
+section > p.Solo{
+    
+    height: 400px ;
+    margin-top: 10px;
+
 }
